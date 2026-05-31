@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('uzbek_pattern.png') repeat; /* Milliy naqsh fon */
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+  color: darkred;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 22px;
+  color: #006400;
+}
+
+.details {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.map-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: darkred;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.map-link:hover {
+  background: #a00000;
+}
+
+.countdown h2 {
+  margin-top: 30px;
+  color: #006400;
+}
